@@ -1,9 +1,8 @@
-"""
-Created by Sanjay at 10/24/2018
+import difflib
 
-Feature: Enter feature name here
-Enter feature description here
-"""
-import numpy as np
+l = ['hell', 'hello', 'hellow']
+s = ['hello']
 
-ids = np.load('ids.npy')
+seq = difflib.SequenceMatcher(None, l, s)
+similarity = seq.ratio ()
+print(similarity)

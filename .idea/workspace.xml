@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="add7e5ad-fb8a-4adf-93a8-c69851319cdb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/data/newdata/word2vec_1000.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/newdata/word2vec_300.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/newdata/word2vec_600.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/smote.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/smote.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,16 +15,16 @@
     <session id="2141517105">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -33,28 +32,28 @@
           <entry key="csv" value="5" />
           <entry key="dat" value="6" />
           <entry key="py" value="18" />
-          <entry key="train_v_category" value="3" />
+          <entry key="train_v_category" value="4" />
           <entry key="word2vec" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSV" value="5" />
-          <entry key="PLAIN_TEXT" value="10" />
+          <entry key="PLAIN_TEXT" value="11" />
           <entry key="Python" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="5" />
-          <entry key="py" value="1269" />
+          <entry key="py" value="1284" />
           <entry key="word2vec" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="5" />
-          <entry key="Python" value="1293" />
+          <entry key="Python" value="1308" />
         </counts>
       </usages-collector>
     </session>
@@ -64,11 +63,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/smote.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-81">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="351">
+              <caret line="30" column="38" lean-forward="true" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
               <folding>
                 <element signature="e#106#125#0" expanded="true" />
               </folding>
@@ -76,11 +75,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/word2vec.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="103" lean-forward="true" selection-start-line="103" selection-end-line="103" />
+            <state relative-caret-position="918">
+              <caret line="107" column="3" selection-start-line="107" selection-start-column="3" selection-end-line="107" selection-end-column="3" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -112,7 +111,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data/newdata/Thread_0.dat">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
+            <state relative-caret-position="3780">
               <caret line="138" column="199" selection-start-line="138" selection-start-column="199" selection-end-line="138" selection-end-column="199" />
             </state>
           </provider>
@@ -186,6 +185,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -193,16 +193,20 @@
               <item name="CS5228-project" type="b2602c69:ProjectViewProjectNode" />
               <item name="CS5228-project" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="CS5228-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CS5228-project" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/CS5242-assignments" />
+    <property name="last_opened_file_path" value="$USER_HOME$/CS5228" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -370,9 +374,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49930266" visible="true" weight="0.15503356" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49930266" visible="true" weight="0.15704697" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5006974" side_tool="true" weight="0.15771812" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -386,13 +389,13 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.21342282" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3033557" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3181208" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="12" visible="true" weight="0.22818792" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" id="SciView" order="3" sideWeight="0.48976108" visible="true" weight="0.3295302" />
-      <window_info anchor="right" x="0" y="0" width="337" height="678" id="Documentation" order="4" sideWeight="0.5102389" side_tool="true" visible="true" weight="0.3295302" />
+      <window_info anchor="right" id="SciView" order="3" sideWeight="0.48869565" visible="true" weight="0.21140939" />
+      <window_info anchor="right" x="0" y="0" width="337" height="678" id="Documentation" order="4" sideWeight="0.5113043" side_tool="true" visible="true" weight="0.21140939" />
       <window_info anchor="right" id="Database" order="5" />
     </layout>
   </component>
@@ -469,12 +472,25 @@
         <state relative-caret-position="-162397" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data/train_v_category">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/source/smote.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-81">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="351">
+          <caret line="30" column="38" lean-forward="true" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
           <folding>
             <element signature="e#106#125#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/word2vec.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="107" column="3" selection-start-line="107" selection-start-column="3" selection-end-line="107" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -496,23 +512,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/train_v_category">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/newdata/Thread_0.dat">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
+        <state relative-caret-position="3780">
           <caret line="138" column="199" selection-start-line="138" selection-start-column="199" selection-end-line="138" selection-end-column="199" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/word2vec.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="103" lean-forward="true" selection-start-line="103" selection-end-line="103" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

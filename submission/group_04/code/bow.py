@@ -26,6 +26,7 @@ def get_pos(word):
         most_common_pos_list = pos_counts.most_common(3)
         return most_common_pos_list[0][0] # first indexer for getting the top POS from list, second indexer for getting POS from tuple( POS: count )
 
+
 def read_titles():
     """
         Function read the titles file and stores it in a list in the format (id, title)
@@ -77,54 +78,39 @@ def preprocess(lines):
     """
         Does some preprocessing.
     """
-    processed_lines = []
-    for line in lines:
-        #Remove non-alphanumeric characters
-        processed_line = re.sub(r'\W+', ' ', line).strip()
-        #Remove all digits
-        processed_line = re.sub(r'\w*\d\w*', '', processed_line).strip()
-        if processed_line:
-            processed_lines.append(processed_line)
-    return processed_lines
+    #Remove non-alphanumeric characters
+    processed_line = re.sub(r'\W+', ' ', lines).strip()
+    #Remove all digits
+    processed_line = re.sub(r'\w*\d\w*', '', processed_line).strip()
+    return processed_line
  
 def tokenize(lines):
     """
         Uses nltk word_tokenize to tokenize the lines
     """
-    tokenized_lines = []
-    for line in lines:
-        tokenized_lines.append(word_tokenize(line))
-    return tokenized_lines
+    return word_tokenize(lines)
 
 def remove_stopwords(tokenized_lines):
     """
         Remove all the stopwords
     """
-    lines = []
     stop_words = stopwords.words("english")
-    for line in tokenized_lines:
-        lines.append([word for word in line if word not in stop_words])
-    return lines
+    return [word for word in tokenized_lines if word not in stop_words]
 
 def stem(tokens_list):
     """
         Uses Porter Stemmmingalgorithm to stem the lines.
     """
-    stemmed_list = []
     p_stemmer = PorterStemmer()
-    for token_list in tokens_list:
-        stemmed_list.append([p_stemmer.stem(i) for i in token_list])
-    return stemmed_list
+    return [p_stemmer.stem(i) for i in tokens_list]
 
 def lemmatize(tokens_list):
     """
         Uses WordNet lemmatizer to lemmatize
     """
     wordnet_lemmatizer = WordNetLemmatizer()
-    lemmatized_list = []
-    for token_list in tokens_list:
-        lemmatized_list.append([wordnet_lemmatizer.lemmatize(i, get_pos(i)) for i in token_list])
-    return lemmatized_list
+    return [wordnet_lemmatizer.lemmatize(i, get_pos(i)) for i in tokens_list]
+
 
 def tag_docs(tokens_list):
     """
@@ -177,14 +163,11 @@ def complete_preprocessing(lines):
     """
         Does a series of preprocessing steps.
     """
-    print("Precessing")
     lines = map(lambda line: preprocess(line), lines)
-    print("Tokenizing")
     lines = map(lambda line: tokenize(line), lines)
-    print("Removing Stop words")
     lines = map(lambda line: remove_stopwords(line), lines)
-    #lines = map(lambda tup: (tup[0], stem(tup[1])), stopword_removed_lines)
-    print("Lemmatizing")
+    #lines = map(lambda line: lemmatize(line), lines)
+    #lines = map(lambda line: stem(line), lines)
     lines = map(lambda line: lemmatize(line), lines)
     return lines
 
